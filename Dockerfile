@@ -1,5 +1,5 @@
 FROM debian:jessie
-ADD enrypoint.sh /enrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
